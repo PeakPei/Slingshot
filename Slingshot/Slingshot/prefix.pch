@@ -1,0 +1,30 @@
+//
+//  prefix.pch
+//  Slingshot
+//
+//  Created by Olle Lind on 09/11/14.
+//  Copyright (c) 2014 Olle Lind. All rights reserved.
+//
+
+#ifndef Slingshot_prefix_pch
+#define Slingshot_prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//device macros
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_IPHONE_6_PLUS (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 736.0f)
+#define IS_IPHONE_6 (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 667.0f)
+#define IS_IPHONE_5 (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 568.0f)
+#define IS_IPHONE_4 (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 480.0f)
+#define IS_RETINA ([[UIScreen mainScreen] scale] == 2.0f)
+#define IS_RETINA_HD ([[UIScreen mainScreen] scale] == 3.0f)
+#define IS_IOS8 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+#define IS_IOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+#define screenSize [[UIScreen mainScreen] bounds].size
+
+#import "Properties.h"
+
+#endif

@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4144CF411A0FDD6A00406B82 /* Projectile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144CF401A0FDD6A00406B82 /* Projectile.m */; };
+		4144CF441A0FDE4800406B82 /* MovingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144CF431A0FDE4800406B82 /* MovingObject.m */; };
+		4144CF471A0FE00500406B82 /* ProjectileStone.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144CF461A0FE00500406B82 /* ProjectileStone.m */; };
+		4144CF4C1A10192100406B82 /* BadGuy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144CF4B1A10192100406B82 /* BadGuy.m */; };
+		4144CF4F1A10199E00406B82 /* BadGuyZombie.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144CF4E1A10199E00406B82 /* BadGuyZombie.m */; };
+		4144CF531A113F6600406B82 /* SKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144CF521A113F6600406B82 /* SKButton.m */; };
+		4144CF561A11519800406B82 /* Wave.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144CF551A11519800406B82 /* Wave.m */; };
+		4144CF5A1A1151CA00406B82 /* WaveHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144CF591A1151CA00406B82 /* WaveHandler.m */; };
+		4144CF5D1A11527000406B82 /* WaveOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144CF5C1A11527000406B82 /* WaveOne.m */; };
+		4144CF601A1153F800406B82 /* Spawn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144CF5F1A1153F800406B82 /* Spawn.m */; };
+		416413801A0FBFB30027C121 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4164137F1A0FBFB30027C121 /* main.m */; };
+		416413831A0FBFB30027C121 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416413821A0FBFB30027C121 /* AppDelegate.m */; };
+		416413861A0FBFB30027C121 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 416413851A0FBFB30027C121 /* GameScene.m */; };
+		416413881A0FBFB30027C121 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 416413871A0FBFB30027C121 /* GameScene.sks */; };
+		4164138B1A0FBFB30027C121 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4164138A1A0FBFB30027C121 /* GameViewController.m */; };
+		4164138E1A0FBFB30027C121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4164138C1A0FBFB30027C121 /* Main.storyboard */; };
+		416413901A0FBFB30027C121 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4164138F1A0FBFB30027C121 /* Images.xcassets */; };
+		416413931A0FBFB30027C121 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 416413911A0FBFB30027C121 /* LaunchScreen.xib */; };
+		4164139F1A0FBFB30027C121 /* SlingshotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4164139E1A0FBFB30027C121 /* SlingshotTests.m */; };
+		416413AA1A0FC0960027C121 /* Slingshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 416413A91A0FC0960027C121 /* Slingshot.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		416413991A0FBFB30027C121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 416413721A0FBFB30027C121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416413791A0FBFB30027C121;
+			remoteInfo = Slingshot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4144CF3F1A0FDD6A00406B82 /* Projectile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Projectile.h; sourceTree = "<group>"; };
+		4144CF401A0FDD6A00406B82 /* Projectile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Projectile.m; sourceTree = "<group>"; };
+		4144CF421A0FDE4800406B82 /* MovingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingObject.h; sourceTree = "<group>"; };
+		4144CF431A0FDE4800406B82 /* MovingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingObject.m; sourceTree = "<group>"; };
+		4144CF451A0FE00500406B82 /* ProjectileStone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectileStone.h; sourceTree = "<group>"; };
+		4144CF461A0FE00500406B82 /* ProjectileStone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectileStone.m; sourceTree = "<group>"; };
+		4144CF481A100DFA00406B82 /* prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		4144CF4A1A10192100406B82 /* BadGuy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadGuy.h; sourceTree = "<group>"; };
+		4144CF4B1A10192100406B82 /* BadGuy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadGuy.m; sourceTree = "<group>"; };
+		4144CF4D1A10199E00406B82 /* BadGuyZombie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadGuyZombie.h; sourceTree = "<group>"; };
+		4144CF4E1A10199E00406B82 /* BadGuyZombie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadGuyZombie.m; sourceTree = "<group>"; };
+		4144CF501A101A8C00406B82 /* Properties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Properties.h; sourceTree = "<group>"; };
+		4144CF511A113F6600406B82 /* SKButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKButton.h; sourceTree = "<group>"; };
+		4144CF521A113F6600406B82 /* SKButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKButton.m; sourceTree = "<group>"; };
+		4144CF541A11519800406B82 /* Wave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wave.h; sourceTree = "<group>"; };
+		4144CF551A11519800406B82 /* Wave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wave.m; sourceTree = "<group>"; };
+		4144CF581A1151CA00406B82 /* WaveHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveHandler.h; sourceTree = "<group>"; };
+		4144CF591A1151CA00406B82 /* WaveHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveHandler.m; sourceTree = "<group>"; };
+		4144CF5B1A11527000406B82 /* WaveOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveOne.h; sourceTree = "<group>"; };
+		4144CF5C1A11527000406B82 /* WaveOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveOne.m; sourceTree = "<group>"; };
+		4144CF5E1A1153F800406B82 /* Spawn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spawn.h; sourceTree = "<group>"; };
+		4144CF5F1A1153F800406B82 /* Spawn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spawn.m; sourceTree = "<group>"; };
+		4164137A1A0FBFB30027C121 /* Slingshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slingshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4164137E1A0FBFB30027C121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4164137F1A0FBFB30027C121 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		416413811A0FBFB30027C121 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		416413821A0FBFB30027C121 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		416413841A0FBFB30027C121 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		416413851A0FBFB30027C121 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		416413871A0FBFB30027C121 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		416413891A0FBFB30027C121 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		4164138A1A0FBFB30027C121 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		4164138D1A0FBFB30027C121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4164138F1A0FBFB30027C121 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		416413921A0FBFB30027C121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		416413981A0FBFB30027C121 /* SlingshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlingshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4164139D1A0FBFB30027C121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4164139E1A0FBFB30027C121 /* SlingshotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlingshotTests.m; sourceTree = "<group>"; };
+		416413A81A0FC0960027C121 /* Slingshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slingshot.h; sourceTree = "<group>"; };
+		416413A91A0FC0960027C121 /* Slingshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slingshot.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		416413771A0FBFB30027C121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416413951A0FBFB30027C121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4144CF3E1A0FDA2B00406B82 /* Projectiles */ = {
+			isa = PBXGroup;
+			children = (
+				4144CF3F1A0FDD6A00406B82 /* Projectile.h */,
+				4144CF401A0FDD6A00406B82 /* Projectile.m */,
+				4144CF451A0FE00500406B82 /* ProjectileStone.h */,
+				4144CF461A0FE00500406B82 /* ProjectileStone.m */,
+			);
+			name = Projectiles;
+			sourceTree = "<group>";
+		};
+		4144CF491A10187400406B82 /* Bad guys */ = {
+			isa = PBXGroup;
+			children = (
+				4144CF4A1A10192100406B82 /* BadGuy.h */,
+				4144CF4B1A10192100406B82 /* BadGuy.m */,
+				4144CF4D1A10199E00406B82 /* BadGuyZombie.h */,
+				4144CF4E1A10199E00406B82 /* BadGuyZombie.m */,
+			);
+			name = "Bad guys";
+			sourceTree = "<group>";
+		};
+		4144CF571A1151B300406B82 /* Waves */ = {
+			isa = PBXGroup;
+			children = (
+				4144CF611A115CA400406B82 /* models */,
+				4144CF581A1151CA00406B82 /* WaveHandler.h */,
+				4144CF591A1151CA00406B82 /* WaveHandler.m */,
+				4144CF5E1A1153F800406B82 /* Spawn.h */,
+				4144CF5F1A1153F800406B82 /* Spawn.m */,
+			);
+			name = Waves;
+			sourceTree = "<group>";
+		};
+		4144CF611A115CA400406B82 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				4144CF541A11519800406B82 /* Wave.h */,
+				4144CF551A11519800406B82 /* Wave.m */,
+				4144CF5B1A11527000406B82 /* WaveOne.h */,
+				4144CF5C1A11527000406B82 /* WaveOne.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		4144CF621A11646000406B82 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Effects;
+			sourceTree = "<group>";
+		};
+		416413711A0FBFB30027C121 = {
+			isa = PBXGroup;
+			children = (
+				4164137C1A0FBFB30027C121 /* Slingshot */,
+				4164139B1A0FBFB30027C121 /* SlingshotTests */,
+				4164137B1A0FBFB30027C121 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4164137B1A0FBFB30027C121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4164137A1A0FBFB30027C121 /* Slingshot.app */,
+				416413981A0FBFB30027C121 /* SlingshotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4164137C1A0FBFB30027C121 /* Slingshot */ = {
+			isa = PBXGroup;
+			children = (
+				4144CF621A11646000406B82 /* Effects */,
+				4144CF571A1151B300406B82 /* Waves */,
+				4144CF491A10187400406B82 /* Bad guys */,
+				4144CF3E1A0FDA2B00406B82 /* Projectiles */,
+				416413811A0FBFB30027C121 /* AppDelegate.h */,
+				416413821A0FBFB30027C121 /* AppDelegate.m */,
+				416413841A0FBFB30027C121 /* GameScene.h */,
+				416413851A0FBFB30027C121 /* GameScene.m */,
+				416413871A0FBFB30027C121 /* GameScene.sks */,
+				416413891A0FBFB30027C121 /* GameViewController.h */,
+				4164138A1A0FBFB30027C121 /* GameViewController.m */,
+				4164138C1A0FBFB30027C121 /* Main.storyboard */,
+				4164138F1A0FBFB30027C121 /* Images.xcassets */,
+				416413911A0FBFB30027C121 /* LaunchScreen.xib */,
+				4164137D1A0FBFB30027C121 /* Supporting Files */,
+				416413A81A0FC0960027C121 /* Slingshot.h */,
+				416413A91A0FC0960027C121 /* Slingshot.m */,
+				4144CF421A0FDE4800406B82 /* MovingObject.h */,
+				4144CF431A0FDE4800406B82 /* MovingObject.m */,
+				4144CF501A101A8C00406B82 /* Properties.h */,
+				4144CF511A113F6600406B82 /* SKButton.h */,
+				4144CF521A113F6600406B82 /* SKButton.m */,
+			);
+			path = Slingshot;
+			sourceTree = "<group>";
+		};
+		4164137D1A0FBFB30027C121 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4164137E1A0FBFB30027C121 /* Info.plist */,
+				4164137F1A0FBFB30027C121 /* main.m */,
+				4144CF481A100DFA00406B82 /* prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4164139B1A0FBFB30027C121 /* SlingshotTests */ = {
+			isa = PBXGroup;
+			children = (
+				4164139E1A0FBFB30027C121 /* SlingshotTests.m */,
+				4164139C1A0FBFB30027C121 /* Supporting Files */,
+			);
+			path = SlingshotTests;
+			sourceTree = "<group>";
+		};
+		4164139C1A0FBFB30027C121 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4164139D1A0FBFB30027C121 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		416413791A0FBFB30027C121 /* Slingshot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416413A21A0FBFB30027C121 /* Build configuration list for PBXNativeTarget "Slingshot" */;
+			buildPhases = (
+				416413761A0FBFB30027C121 /* Sources */,
+				416413771A0FBFB30027C121 /* Frameworks */,
+				416413781A0FBFB30027C121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slingshot;
+			productName = Slingshot;
+			productReference = 4164137A1A0FBFB30027C121 /* Slingshot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		416413971A0FBFB30027C121 /* SlingshotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416413A51A0FBFB30027C121 /* Build configuration list for PBXNativeTarget "SlingshotTests" */;
+			buildPhases = (
+				416413941A0FBFB30027C121 /* Sources */,
+				416413951A0FBFB30027C121 /* Frameworks */,
+				416413961A0FBFB30027C121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4164139A1A0FBFB30027C121 /* PBXTargetDependency */,
+			);
+			name = SlingshotTests;
+			productName = SlingshotTests;
+			productReference = 416413981A0FBFB30027C121 /* SlingshotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		416413721A0FBFB30027C121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Olle Lind";
+				TargetAttributes = {
+					416413791A0FBFB30027C121 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					416413971A0FBFB30027C121 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 416413791A0FBFB30027C121;
+					};
+				};
+			};
+			buildConfigurationList = 416413751A0FBFB30027C121 /* Build configuration list for PBXProject "Slingshot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 416413711A0FBFB30027C121;
+			productRefGroup = 4164137B1A0FBFB30027C121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				416413791A0FBFB30027C121 /* Slingshot */,
+				416413971A0FBFB30027C121 /* SlingshotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		416413781A0FBFB30027C121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416413931A0FBFB30027C121 /* LaunchScreen.xib in Resources */,
+				416413901A0FBFB30027C121 /* Images.xcassets in Resources */,
+				416413881A0FBFB30027C121 /* GameScene.sks in Resources */,
+				4164138E1A0FBFB30027C121 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416413961A0FBFB30027C121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		416413761A0FBFB30027C121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4144CF441A0FDE4800406B82 /* MovingObject.m in Sources */,
+				4144CF5D1A11527000406B82 /* WaveOne.m in Sources */,
+				4144CF4C1A10192100406B82 /* BadGuy.m in Sources */,
+				4144CF531A113F6600406B82 /* SKButton.m in Sources */,
+				4164138B1A0FBFB30027C121 /* GameViewController.m in Sources */,
+				4144CF561A11519800406B82 /* Wave.m in Sources */,
+				416413831A0FBFB30027C121 /* AppDelegate.m in Sources */,
+				4144CF5A1A1151CA00406B82 /* WaveHandler.m in Sources */,
+				4144CF411A0FDD6A00406B82 /* Projectile.m in Sources */,
+				4144CF601A1153F800406B82 /* Spawn.m in Sources */,
+				416413AA1A0FC0960027C121 /* Slingshot.m in Sources */,
+				416413861A0FBFB30027C121 /* GameScene.m in Sources */,
+				4144CF4F1A10199E00406B82 /* BadGuyZombie.m in Sources */,
+				4144CF471A0FE00500406B82 /* ProjectileStone.m in Sources */,
+				416413801A0FBFB30027C121 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416413941A0FBFB30027C121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4164139F1A0FBFB30027C121 /* SlingshotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4164139A1A0FBFB30027C121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 416413791A0FBFB30027C121 /* Slingshot */;
+			targetProxy = 416413991A0FBFB30027C121 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4164138C1A0FBFB30027C121 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4164138D1A0FBFB30027C121 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		416413911A0FBFB30027C121 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416413921A0FBFB30027C121 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		416413A01A0FBFB30027C121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		416413A11A0FBFB30027C121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		416413A31A0FBFB30027C121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = Slingshot/prefix.pch;
+				INFOPLIST_FILE = Slingshot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		416413A41A0FBFB30027C121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = Slingshot/prefix.pch;
+				INFOPLIST_FILE = Slingshot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		416413A61A0FBFB30027C121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlingshotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slingshot.app/Slingshot";
+			};
+			name = Debug;
+		};
+		416413A71A0FBFB30027C121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlingshotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slingshot.app/Slingshot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		416413751A0FBFB30027C121 /* Build configuration list for PBXProject "Slingshot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416413A01A0FBFB30027C121 /* Debug */,
+				416413A11A0FBFB30027C121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416413A21A0FBFB30027C121 /* Build configuration list for PBXNativeTarget "Slingshot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416413A31A0FBFB30027C121 /* Debug */,
+				416413A41A0FBFB30027C121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416413A51A0FBFB30027C121 /* Build configuration list for PBXNativeTarget "SlingshotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416413A61A0FBFB30027C121 /* Debug */,
+				416413A71A0FBFB30027C121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 416413721A0FBFB30027C121 /* Project object */;
+}
